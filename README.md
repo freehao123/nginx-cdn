@@ -1,25 +1,27 @@
-# nginx-cdn
+# XCDN
 CentOS一键安装Nginx
 
 ### 环境要求
 * CentOS 6/7
 
 ### 当前版本
-* nginx/1.14.0
+* nginx/1.18
 
-#### 已编译模板
+#### 已编译模块
 * --with-stream
 * --with-http_stub_status_module
 * --with-http_v2_module
 * --with-http_ssl_module
 * --with-http_gzip_static_module
 * --with-http_realip_module
+* --with-http_slice_module
 * --with-pcre-jit
 * pcre-8.39
 * zlib-1.2.11
-* openssl-1.1.0h
+* openssl-1.1.1
 * ngx_http_substitutions_filter_module
 * ngx_cache_purge
+* ngx_brotli
 
 ### 安装
 ```
